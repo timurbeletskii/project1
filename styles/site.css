@@ -83,6 +83,11 @@ nav a {
 
 }
 
+img.selfie{
+	border-radius: 50%;
+	max-width: 50%;
+	max-height: 50%;
+}
 .page{
 
 }
@@ -91,8 +96,9 @@ nav a {
 h1{
   font-family: Arial, sans-serif;
   font-size: 30px;
+	background-color: orange;
 }
 
 p{
-
+	background-color: yellow;
 }
