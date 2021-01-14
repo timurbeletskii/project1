@@ -48,7 +48,11 @@ table {
 	border-spacing: 0;
 }
 
-/* nav bar */
+
+
+
+
+/* NAV BAR */
 ul li a {
   color: white;
   padding: 14px 16px;
@@ -63,7 +67,7 @@ nav li {
   padding: 0;
   border-style: solid;
   font-weight: bold;
-  font-size: 120%;
+  font-size: 130%;
   color:black;
 }
 nav ul li:hover {
@@ -89,22 +93,53 @@ nav a {
 }
 
 
-.page{
+
+/* BODY TEXT STYLING */
+.index{
 	display: flex;
 	flex-flow: row;
 	flex-wrap: nowrap;
 
 }
+body{
+	background-color:#fff2e0;
+}
+
+h1{
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 35px;
+	background-color: orange;
+	font-weight: bold;
+}
+
+h2{
+	background-color: green;
+	font-family:'Inter', Arial;
+	font-size: 20px;
+	font-style: italic;
+}
+
+p{
+	background-color: yellow;
+	font-family: 'Roboto', Arial;
+	font-size 15px;
+}
+
 img{
 	display: block;
 }
+
+/* INDEX PAGE STYLING */
+
+
 img.selfie{
 	border-radius: 50%;
 	width: 80%;
 	height: auto;
 }
-aside {
-	/* background-color: blue; */
+
+aside.indexpage {
+	background-color: blue;
   padding: 3em;
   flex-grow: 1;
   min-width: 25%;
@@ -115,38 +150,17 @@ aside {
 	border: 1px solid
 	padding-left: 0%;
 }
-main {
+main.indexpage {
 
-	/* background-color: red; */
+	background-color: red;
 	margin-top: 10%;
 	margin-left:-110px;
 	margin-right: 20%;
 	padding: 3em;
-	
+
 	justify-content: center;
-	}
-/* body text styling */
-body{
-	background-color:#fff2e0;
 }
 
-h1{
-  font-family: Arial, sans-serif;
-  font-size: 30px;
-	/* background-color: orange; */
-	font-weight: bold;
-}
-
-h2{
-	/* background-color: green; */
-	font: 20px Arial;
-	font-style: italic;
-}
-
-p{
-	/* background-color: yellow; */
-	font: 15px serif;
-}
 
 /* Social */
 
@@ -169,4 +183,134 @@ p{
 
 .socials a:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*  EBAY PAGE STYLING */
+aside.ebaypage{
+	background-color: blue;
+	padding-left: 10%;
+	flex-grow: 1;
+	min-width: 25%;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top: 5%;
+	justify-content: center;
+	border: 1px solid;
+}
+
+main.ebaypage {
+
+	background-color: red;
+	margin-left:20%;
+	margin-right: 20%;
+	padding: 2em;
+	justify-content: center;
+	}
+.ebay{
+	display: flex;
+	flex-flow: column;
+	flex-wrap: nowrap;
+}
+
+img.ebay{
+	width: 80%;
+	height: auto;
+	min-width: 50%;
+}
+
+
+
+/* mobile */
+@media (max-width: 600px) {
+  html {
+    font-size: 120%;
+    line-height: 1em;
+  }
+  h1 {
+    font-size: 160%
+  }
+  h2 {
+    font-size: 120%
+  }
+  main li, p {
+    font-size: 80%;
+  }
+  main {
+    font-size: 120%
+  }
+  .index {
+    display: flex;
+    flex-direction: column;
+  }
+  aside img {
+    width: 70%;
+    height: 60%;
+  }
+	aside.indexpage {
+		background-color: blue;
+	  padding: 3em;
+	  flex-grow: 1;
+	  min-width: 25%;
+		margin-left:15%;
+		margin-right:0;
+		margin-top: 10%;
+		justify-content: center;
+		border: 1px solid
+		padding-left: 0%;
+	}
+	.socials a {
+	  text-decoration: none;
+	  padding: 4px;
+		color: blue;
+		font-size: 18px;
+	}
+	main.indexpage {
+
+		background-color: red;
+		margin-top: -10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 2em;
+
+		justify-content: center;
+	}
+  nav ul {
+    padding-left: 5%;
+    padding-right: 1%
+  }
+
+
+
+	aside.ebaypage{
+		background-color: blue;
+		padding-left: 10%;
+		flex-grow: 1;
+		min-width: 25%;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top: 5%;
+		justify-content: center;
+		border: 1px solid;
+	}
+
+	main.ebaypage {
+
+		background-color: red;
+		margin-left:10%;
+		margin-right: 10%;
+		padding: 1em;
+		justify-content: center;
+		}
+	.ebay{
+		display: flex;
+		flex-flow: column;
+		flex-wrap: nowrap;
+	}
+
+	img.ebay{
+		width: 80%;
+		height: auto;
+		min-width: 50%;
+	}
+
 }
