@@ -108,19 +108,19 @@ body{
 h1{
   font-family: 'Inter', Arial, sans-serif;
   font-size: 35px;
-	background-color: orange;
+	/* background-color: orange; */
 	font-weight: bold;
 }
 
 h2{
-	background-color: green;
+	/* background-color: green; */
 	font-family:'Inter', Arial;
 	font-size: 20px;
 	font-style: italic;
 }
 
 p{
-	background-color: yellow;
+	/* background-color: yellow; */
 	font-family: 'Roboto', Arial;
 	font-size 15px;
 }
@@ -139,7 +139,7 @@ img.selfie{
 }
 
 aside.indexpage {
-	background-color: blue;
+	/* background-color: blue; */
   padding: 3em;
   flex-grow: 1;
   min-width: 25%;
@@ -152,7 +152,7 @@ aside.indexpage {
 }
 main.indexpage {
 
-	background-color: red;
+	/* background-color: red; */
 	margin-top: 10%;
 	margin-left:-110px;
 	margin-right: 20%;
@@ -187,7 +187,7 @@ main.indexpage {
 
 /*  EBAY PAGE STYLING */
 aside.ebaypage{
-	background-color: blue;
+	/* background-color: blue; */
 	padding-left: 10%;
 	flex-grow: 1;
 	min-width: 25%;
@@ -195,12 +195,11 @@ aside.ebaypage{
 	margin-right:20%;
 	margin-top: 5%;
 	justify-content: center;
-	border: 1px solid;
 }
 
 main.ebaypage {
 
-	background-color: red;
+	/* background-color: red; */
 	margin-left:20%;
 	margin-right: 20%;
 	padding: 2em;
@@ -247,7 +246,7 @@ img.ebay{
     height: 60%;
   }
 	aside.indexpage {
-		background-color: blue;
+		/* background-color: blue; */
 	  padding: 3em;
 	  flex-grow: 1;
 	  min-width: 25%;
@@ -266,7 +265,7 @@ img.ebay{
 	}
 	main.indexpage {
 
-		background-color: red;
+		/* background-color: red; */
 		margin-top: -10px;
 		margin-left: 10%;
 		margin-right: 10%;
@@ -282,7 +281,7 @@ img.ebay{
 
 
 	aside.ebaypage{
-		background-color: blue;
+		/* background-color: blue; */
 		padding-left: 10%;
 		flex-grow: 1;
 		min-width: 25%;
@@ -290,12 +289,11 @@ img.ebay{
 		margin-right:5%;
 		margin-top: 5%;
 		justify-content: center;
-		border: 1px solid;
 	}
 
 	main.ebaypage {
 
-		background-color: red;
+		/* background-color: red; */
 		margin-left:10%;
 		margin-right: 10%;
 		padding: 1em;
