@@ -107,22 +107,25 @@ body{
 
 h1{
   font-family: 'Inter', Arial, sans-serif;
-  font-size: 35px;
+  font-size: 38px;
 	/* background-color: orange; */
 	font-weight: bold;
+	line-height: 1.2;
 }
 
 h2{
 	/* background-color: green; */
 	font-family:'Inter', Arial;
-	font-size: 20px;
+	font-size: 22px;
 	font-style: italic;
+	line-height: 1.2;
 }
 
 p{
 	/* background-color: yellow; */
 	font-family: 'Roboto', Arial;
-	font-size 15px;
+	font-size 16px;
+	line-height: 1.6;
 }
 
 img{
@@ -145,7 +148,7 @@ aside.indexpage {
   min-width: 25%;
 	margin-left:20%;
 	margin-right:0;
-	margin-top: 10%;
+	margin-top: 7%;
 	justify-content: center;
 	border: 1px solid
 	padding-left: 0%;
@@ -153,7 +156,7 @@ aside.indexpage {
 main.indexpage {
 
 	/* background-color: red; */
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-left:-110px;
 	margin-right: 20%;
 	padding: 3em;
